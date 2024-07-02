@@ -1,0 +1,51 @@
+#dropdown {
+  width: 30px;
+}
+
+#dropdown_menu button {
+  margin: 0;
+  display: block;
+}
+
+#galery {
+  display: flex;
+  align-items: center;
+}
+
+#frame {
+  width: 100px;
+  height: 100px;
+  border: 20px black solid;
+  background-color: transparent;
+  overflow: hidden;
+}
+
+#pictures {
+  display: flex;
+}
+
+.picture {
+  width: 100px;
+  height: 100px;
+  flex-shrink: 0;
+}
+
+#red {
+  background-color: red;
+}
+
+#blue {
+  background-color: blue;
+}
+
+#green {
+  background-color: green;
+}
+
+#yellow {
+  background-color: yellow;
+}
+
+#pink {
+  background-color: pink;
+}
