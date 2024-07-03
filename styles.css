@@ -2,6 +2,11 @@
   width: 30px;
 }
 
+#dropdown_menu {
+  position: absolute;
+  z-index: 2;
+}
+
 #dropdown_menu button {
   margin: 0;
   display: block;
@@ -48,4 +53,22 @@
 
 #pink {
   background-color: pink;
+}
+
+#buttons {
+  display: flex;
+  justify-content: space-around;
+  margin: 10px;
+}
+
+.circle {
+  width: 15px;
+  height: 15px;
+  border-radius: 100%;
+  background-color: grey;
+  border: none;
+}
+
+.selected {
+  background-color: lightgrey;
 }
